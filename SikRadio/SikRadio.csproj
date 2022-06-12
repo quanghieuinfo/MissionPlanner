@@ -180,6 +180,9 @@
       <DependentUpon>Config.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
+    <EmbeddedResource Include="Config.uk.resx">
+      <DependentUpon>Config.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Config.zh-Hans.resx">
       <DependentUpon>Config.cs</DependentUpon>
       <SubType>Designer</SubType>
@@ -204,6 +207,9 @@
     <EmbeddedResource Include="Rssi.resx">
       <DependentUpon>Rssi.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Rssi.uk.resx">
+      <DependentUpon>Rssi.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Rssi.zh-Hans.resx">
       <DependentUpon>Rssi.cs</DependentUpon>
     </EmbeddedResource>
@@ -214,6 +220,9 @@
       <DependentUpon>Rssi.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Terminal.resx">
+      <DependentUpon>Terminal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Terminal.uk.resx">
       <DependentUpon>Terminal.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Terminal.zh-Hans.resx">

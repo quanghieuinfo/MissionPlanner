@@ -74,6 +74,435 @@
     <EmbeddedResource Remove="SikRadio\**" />
     <EmbeddedResource Remove="Updater\**" />
     <EmbeddedResource Remove="wix\**" />
+    <EmbeddedResource Include="Antenna\TrackerUI.uk.resx">
+      <DependentUpon>TrackerUI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\AuthKeys.uk.resx">
+      <DependentUpon>AuthKeys.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\ConnectionControl.uk.resx">
+      <DependentUpon>ConnectionControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\ConnectionOptions.uk.resx">
+      <DependentUpon>ConnectionOptions.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\ConnectionStats.uk.resx">
+      <DependentUpon>ConnectionStats.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\ControlSensorsStatus.uk.resx">
+      <DependentUpon>ControlSensorsStatus.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\DefaultSettings.uk.resx">
+      <DependentUpon>DefaultSettings.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\DevopsUI.uk.resx">
+      <DependentUpon>DevopsUI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\DigitalSkyUI.uk.resx">
+      <DependentUpon>DigitalSkyUI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\DistanceBar.uk.resx">
+      <DependentUpon>DistanceBar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\DroneCANFileUI.uk.resx">
+      <DependentUpon>DroneCANFileUI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\DroneCANInspector.uk.resx">
+      <DependentUpon>DroneCANInspector.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\DroneCANParams.uk.resx">
+      <DependentUpon>DroneCANParams.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\DroneCANSubscriber.uk.resx">
+      <DependentUpon>DroneCANSubscriber.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\EKFStatus.uk.resx">
+      <DependentUpon>EKFStatus.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\ElevationProfile.uk.resx">
+      <DependentUpon>ElevationProfile.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\fftui.uk.resx">
+      <DependentUpon>fftui.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\FollowMe.uk.resx">
+      <DependentUpon>FollowMe.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\GMAPCache.uk.resx">
+      <DependentUpon>GMAPCache.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\Loading.uk.resx">
+      <DependentUpon>Loading.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\LogAnalyzer.uk.resx">
+      <DependentUpon>LogAnalyzer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\MavCommandSelection.uk.resx">
+      <DependentUpon>MavCommandSelection.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\MavFTPUI.uk.resx">
+      <DependentUpon>MavFTPUI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\MavlinkCheckBoxBitMask.uk.resx">
+      <DependentUpon>MavlinkCheckBoxBitMask.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\MAVLinkInspector.uk.resx">
+      <DependentUpon>MAVLinkInspector.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\ModifyandSet.uk.resx">
+      <DependentUpon>ModifyandSet.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\MovingBase.uk.resx">
+      <DependentUpon>MovingBase.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\OpenGLtest.uk.resx">
+      <DependentUpon>OpenGLtest.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\OpenGLtest2.uk.resx">
+      <DependentUpon>OpenGLtest2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\OSDVideo.uk.resx">
+      <DependentUpon>OSDVideo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\paramcompare.uk.resx">
+      <DependentUpon>paramcompare.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\PreFlight\CheckListControl.uk.resx">
+      <DependentUpon>CheckListControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\PreFlight\CheckListEditor.uk.resx">
+      <DependentUpon>CheckListEditor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\PreFlight\CheckListInput.uk.resx">
+      <DependentUpon>CheckListInput.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\PropagationSettings.uk.resx">
+      <DependentUpon>PropagationSettings.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\ProximityControl.uk.resx">
+      <DependentUpon>ProximityControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\RAW_Sensor.uk.resx">
+      <DependentUpon>RAW_Sensor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\RelayOptions.uk.resx">
+      <DependentUpon>RelayOptions.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\ScriptConsole.uk.resx">
+      <DependentUpon>ScriptConsole.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\SerialOutputCoT.uk.resx">
+      <DependentUpon>SerialOutputCoT.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\SerialOutputMD.uk.resx">
+      <DependentUpon>SerialOutputMD.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\SerialOutputNMEA.uk.resx">
+      <DependentUpon>SerialOutputNMEA.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\SerialOutputPass.uk.resx">
+      <DependentUpon>SerialOutputPass.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\ServoOptions.uk.resx">
+      <DependentUpon>ServoOptions.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\SpectrogramUI.uk.resx">
+      <DependentUpon>SpectrogramUI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\Status.uk.resx">
+      <DependentUpon>Status.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\ThemeEditor.uk.resx">
+      <DependentUpon>ThemeEditor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\Vibration.uk.resx">
+      <DependentUpon>Vibration.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\Video.uk.resx">
+      <DependentUpon>Video.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GCSViews\ConfigurationView\ConfigAccelerometerCalibration.uk.resx">
+      <DependentUpon>ConfigAccelerometerCalibration.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GCSViews\ConfigurationView\ConfigAC_Fence.uk.resx">
+      <DependentUpon>ConfigAC_Fence.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GCSViews\ConfigurationView\ConfigADSB.uk.resx">
+      <DependentUpon>ConfigADSB.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GCSViews\ConfigurationView\ConfigAdvanced.uk.resx">
+      <DependentUpon>ConfigAdvanced.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GCSViews\ConfigurationView\ConfigAntennaTracker.uk.resx">
+      <DependentUpon>ConfigAntennaTracker.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GCSViews\ConfigurationView\ConfigArducopter.uk.resx">
+      <DependentUpon>ConfigArducopter.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GCSViews\ConfigurationView\ConfigArduplane.uk.resx">
+      <DependentUpon>ConfigArduplane.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GCSViews\ConfigurationView\ConfigArdurover.uk.resx">
+      <DependentUpon>ConfigArdurover.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GCSViews\ConfigurationView\ConfigAteryx.uk.resx">
+      <DependentUpon>ConfigAteryx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GCSViews\ConfigurationView\ConfigAteryxSensors.uk.resx">
+      <DependentUpon>ConfigAteryxSensors.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GCSViews\ConfigurationView\ConfigBatteryMonitoring.uk.resx">
+      <DependentUpon>ConfigBatteryMonitoring.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GCSViews\ConfigurationView\ConfigBatteryMonitoring2.uk.resx">
+      <DependentUpon>ConfigBatteryMonitoring2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GCSViews\ConfigurationView\ConfigCompassMot.uk.resx">
+      <DependentUpon>ConfigCompassMot.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GCSViews\ConfigurationView\ConfigDroneCAN.uk.resx">
+      <DependentUpon>ConfigDroneCAN.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GCSViews\ConfigurationView\ConfigESCCalibration.uk.resx">
+      <DependentUpon>ConfigESCCalibration.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GCSViews\ConfigurationView\ConfigFailSafe.uk.resx">
+      <DependentUpon>ConfigFailSafe.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GCSViews\ConfigurationView\ConfigFFT.uk.resx">
+      <DependentUpon>ConfigFFT.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GCSViews\ConfigurationView\ConfigFirmware.uk.resx">
+      <DependentUpon>ConfigFirmware.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GCSViews\ConfigurationView\ConfigFirmwareDisabled.uk.resx">
+      <DependentUpon>ConfigFirmwareDisabled.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GCSViews\ConfigurationView\ConfigFirmwareManifest.uk.resx">
+      <DependentUpon>ConfigFirmwareManifest.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GCSViews\ConfigurationView\ConfigFlightModes.uk.resx">
+      <DependentUpon>ConfigFlightModes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GCSViews\ConfigurationView\ConfigFrameClassType.uk.resx">
+      <DependentUpon>ConfigFrameClassType.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GCSViews\ConfigurationView\ConfigFrameType.uk.resx">
+      <DependentUpon>ConfigFrameType.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GCSViews\ConfigurationView\ConfigFriendlyParams.uk.resx">
+      <DependentUpon>ConfigFriendlyParams.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GCSViews\ConfigurationView\ConfigGPSOrder.uk.resx">
+      <DependentUpon>ConfigGPSOrder.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GCSViews\ConfigurationView\ConfigHWAirspeed.uk.resx">
+      <DependentUpon>ConfigHWAirspeed.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GCSViews\ConfigurationView\ConfigHWBT.uk.resx">
+      <DependentUpon>ConfigHWBT.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GCSViews\ConfigurationView\ConfigHWCAN.uk.resx">
+      <DependentUpon>ConfigHWCAN.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GCSViews\ConfigurationView\ConfigHWCompass.uk.resx">
+      <DependentUpon>ConfigHWCompass.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GCSViews\ConfigurationView\ConfigHWCompass2.uk.resx">
+      <DependentUpon>ConfigHWCompass2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GCSViews\ConfigurationView\ConfigHWesp8266.uk.resx">
+      <DependentUpon>ConfigHWesp8266.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GCSViews\ConfigurationView\ConfigHWIDs.uk.resx">
+      <DependentUpon>ConfigHWIDs.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GCSViews\ConfigurationView\ConfigHWOptFlow.uk.resx">
+      <DependentUpon>ConfigHWOptFlow.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GCSViews\ConfigurationView\ConfigHWOSD.uk.resx">
+      <DependentUpon>ConfigHWOSD.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GCSViews\ConfigurationView\ConfigHWParachute.uk.resx">
+      <DependentUpon>ConfigHWParachute.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GCSViews\ConfigurationView\ConfigHWPX4Flow.uk.resx">
+      <DependentUpon>ConfigHWPX4Flow.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GCSViews\ConfigurationView\ConfigHWRangeFinder.uk.resx">
+      <DependentUpon>ConfigHWRangeFinder.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GCSViews\ConfigurationView\ConfigInitialParams.uk.resx">
+      <DependentUpon>ConfigInitialParams.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GCSViews\ConfigurationView\ConfigMandatory.uk.resx">
+      <DependentUpon>ConfigMandatory.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GCSViews\ConfigurationView\ConfigMotorTest.uk.resx">
+      <DependentUpon>ConfigMotorTest.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GCSViews\ConfigurationView\ConfigMount.uk.resx">
+      <DependentUpon>ConfigMount.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GCSViews\ConfigurationView\ConfigOptional.uk.resx">
+      <DependentUpon>ConfigOptional.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GCSViews\ConfigurationView\ConfigOSD.uk.resx">
+      <DependentUpon>ConfigOSD.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GCSViews\ConfigurationView\ConfigParamLoading.uk.resx">
+      <DependentUpon>ConfigParamLoading.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GCSViews\ConfigurationView\ConfigPlanner.uk.resx">
+      <DependentUpon>ConfigPlanner.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GCSViews\ConfigurationView\ConfigRadioInput.uk.resx">
+      <DependentUpon>ConfigRadioInput.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GCSViews\ConfigurationView\ConfigRadioOutput.uk.resx">
+      <DependentUpon>ConfigRadioOutput.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GCSViews\ConfigurationView\ConfigRawParams.uk.resx">
+      <DependentUpon>ConfigRawParams.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GCSViews\ConfigurationView\ConfigRawParamsTree.uk.resx">
+      <DependentUpon>ConfigRawParamsTree.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GCSViews\ConfigurationView\ConfigREPL.uk.resx">
+      <DependentUpon>ConfigREPL.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GCSViews\ConfigurationView\ConfigSerialInjectGPS.uk.resx">
+      <DependentUpon>ConfigSerialInjectGPS.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GCSViews\ConfigurationView\ConfigSimplePids.uk.resx">
+      <DependentUpon>ConfigSimplePids.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GCSViews\ConfigurationView\ConfigTerminal.uk.resx">
+      <DependentUpon>ConfigTerminal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GCSViews\ConfigurationView\ConfigTradHeli.uk.resx">
+      <DependentUpon>ConfigTradHeli.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GCSViews\ConfigurationView\ConfigTradHeli4.uk.resx">
+      <DependentUpon>ConfigTradHeli4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GCSViews\ConfigurationView\ConfigUserDefined.uk.resx">
+      <DependentUpon>ConfigUserDefined.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GCSViews\FlightData.uk.resx">
+      <DependentUpon>FlightData.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GCSViews\FlightPlanner.uk.resx">
+      <DependentUpon>FlightPlanner.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GCSViews\Help.uk.resx">
+      <DependentUpon>Help.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GCSViews\InitialSetup.uk.resx">
+      <DependentUpon>InitialSetup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GCSViews\SITL.uk.resx">
+      <DependentUpon>SITL.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GCSViews\SoftwareConfig.uk.resx">
+      <DependentUpon>SoftwareConfig.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GeoRef\georefimage.uk.resx">
+      <DependentUpon>georefimage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Grid\GridUI.uk.resx">
+      <DependentUpon>GridUI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Joystick\JoystickAxis.uk.resx">
+      <DependentUpon>JoystickAxis.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Joystick\JoystickSetup.uk.resx">
+      <DependentUpon>JoystickSetup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Joystick\Joy_Button_axis.uk.resx">
+      <DependentUpon>Joy_Button_axis.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Joystick\Joy_ChangeMode.uk.resx">
+      <DependentUpon>Joy_ChangeMode.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Joystick\Joy_Do_Repeat_Relay.uk.resx">
+      <DependentUpon>Joy_Do_Repeat_Relay.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Joystick\Joy_Do_Repeat_Servo.uk.resx">
+      <DependentUpon>Joy_Do_Repeat_Servo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Joystick\Joy_Do_Set_Relay.uk.resx">
+      <DependentUpon>Joy_Do_Set_Relay.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Joystick\Joy_Do_Set_Servo.uk.resx">
+      <DependentUpon>Joy_Do_Set_Servo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Joystick\Joy_Mount_Mode.uk.resx">
+      <DependentUpon>Joy_Mount_Mode.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Log\LogBrowse.uk.resx">
+      <DependentUpon>LogBrowse.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Log\LogDownload.uk.resx">
+      <DependentUpon>LogDownload.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Log\LogDownloadMavLink.uk.resx">
+      <DependentUpon>LogDownloadMavLink.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Log\LogDownloadscp.uk.resx">
+      <DependentUpon>LogDownloadscp.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Log\LogIndex.uk.resx">
+      <DependentUpon>LogIndex.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Log\LogStrings.uk.resx">
+      <DependentUpon>LogStrings.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Log\MavlinkLog.uk.resx">
+      <DependentUpon>MavlinkLog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="plugins\generator.uk.resx">
+      <DependentUpon>generator.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Plugin\PluginUI.uk.resx">
+      <DependentUpon>PluginUI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Radio\Sikradio.uk.resx">
+      <DependentUpon>Sikradio.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Swarm\FollowLeader\Control.uk.resx">
+      <DependentUpon>Control.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Swarm\FollowPathControl.uk.resx">
+      <DependentUpon>FollowPathControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Swarm\FormationControl.uk.resx">
+      <DependentUpon>FormationControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Swarm\Grid.uk.resx">
+      <DependentUpon>Grid.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Swarm\Sequence\LayoutEditor.uk.resx">
+      <DependentUpon>LayoutEditor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Swarm\SRB\Control.uk.resx">
+      <DependentUpon>Control.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Swarm\Status.uk.resx">
+      <DependentUpon>Status.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Swarm\WaypointLeader\WPControl.uk.resx">
+      <DependentUpon>WPControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Utilities\AirMarket.uk.resx">
+      <DependentUpon>AirMarket.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Warnings\WarningControl.uk.resx">
+      <DependentUpon>WarningControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Warnings\WarningsManager.uk.resx">
+      <DependentUpon>WarningsManager.cs</DependentUpon>
+    </EmbeddedResource>
     <None Remove="APMPlannerXplanes\**" />
     <None Remove="plugins\**" />
     <None Remove="resedit\**" />
@@ -1745,6 +2174,9 @@
     <EmbeddedResource Include="MainV2.tr.resx">
       <DependentUpon>MainV2.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="MainV2.uk.resx">
+      <DependentUpon>MainV2.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="MainV2.zh-Hans.resx">
       <DependentUpon>MainV2.cs</DependentUpon>
     </EmbeddedResource>
@@ -1816,6 +2248,15 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Controls\paramcompare.resx">
       <DependentUpon>paramcompare.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ResEdit.uk.resx">
+      <DependentUpon>ResEdit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Splash.uk.resx">
+      <DependentUpon>Splash.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="temp.uk.resx">
+      <DependentUpon>temp.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Utilities\AirMarket.resx">
       <DependentUpon>AirMarket.cs</DependentUpon>
